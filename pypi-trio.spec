@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-trio
-Version  : 0.26.1
-Release  : 24
-URL      : https://files.pythonhosted.org/packages/37/35/1d31cc44ec20f4eacb6f45dd1a86d6c40670d752f7a933e978fb81687711/trio-0.26.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/37/35/1d31cc44ec20f4eacb6f45dd1a86d6c40670d752f7a933e978fb81687711/trio-0.26.1.tar.gz
+Version  : 0.26.2
+Release  : 25
+URL      : https://files.pythonhosted.org/packages/9a/03/ab0e9509be0c6465e2773768ec25ee0cb8053c0b91471ab3854bbf2294b2/trio-0.26.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/9a/03/ab0e9509be0c6465e2773768ec25ee0cb8053c0b91471ab3854bbf2294b2/trio-0.26.2.tar.gz
 Summary  : A friendly Python library for async concurrency and I/O
 Group    : Development/Tools
 License  : Apache-2.0 MIT
@@ -60,10 +60,10 @@ python3 components for the pypi-trio package.
 
 
 %prep
-%setup -q -n trio-0.26.1
-cd %{_builddir}/trio-0.26.1
+%setup -q -n trio-0.26.2
+cd %{_builddir}/trio-0.26.2
 pushd ..
-cp -a trio-0.26.1 buildavx2
+cp -a trio-0.26.2 buildavx2
 popd
 
 %build
@@ -71,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1722870432
+export SOURCE_DATE_EPOCH=1723127081
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
