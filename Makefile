@@ -1,5 +1,5 @@
 PKG_NAME := pypi-trio
-URL = https://files.pythonhosted.org/packages/17/d1/a83dee5be404da7afe5a71783a33b8907bacb935a6dc8c69ab785e4a3eed/trio-0.27.0.tar.gz
+URL = https://files.pythonhosted.org/packages/b3/73/57efab729506a8d4b89814f1e356ec8f3369de0ed4fd7e7616974d09646d/trio-0.28.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
