@@ -7,7 +7,7 @@
 #
 Name     : pypi-trio
 Version  : 0.28.0
-Release  : 28
+Release  : 29
 URL      : https://files.pythonhosted.org/packages/b3/73/57efab729506a8d4b89814f1e356ec8f3369de0ed4fd7e7616974d09646d/trio-0.28.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b3/73/57efab729506a8d4b89814f1e356ec8f3369de0ed4fd7e7616974d09646d/trio-0.28.0.tar.gz
 Summary  : A friendly Python library for async concurrency and I/O
